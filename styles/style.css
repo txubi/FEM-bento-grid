@@ -315,9 +315,8 @@ main,
   }
   .container {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    /* grid-template-rows: 224fr 58fr 168fr 246fr; */
     grid-auto-rows: auto;
-    width: 100%;
+    max-width: 841px;
     height: 881px;
   }
   .card:nth-of-type(1) {
@@ -340,6 +339,7 @@ main,
     }
     img {
       max-width: 220%;
+      height: auto;
     }
   }
   .card:nth-of-type(3) {
