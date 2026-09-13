@@ -142,3 +142,20 @@ main,
     text-align: center;
   }
 }
+.card:nth-of-type(6) {
+  color: var(--black);
+  background-color: var(--white);
+  padding: 24px;
+  h2 {
+    margin-bottom: 24px;
+    width: 192px;
+    span {
+      display: block;
+      margin-bottom: 15px;
+    }
+  }
+  img {
+    width: 178.93px;
+    margin: 0px;
+  }
+}
