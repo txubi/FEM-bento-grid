@@ -47,7 +47,7 @@
 body,
 main,
 .container {
-  background-color: var(--yellow100);
+  background-color: #f6f5f6;
 }
 
 .container {
@@ -157,5 +157,20 @@ main,
   img {
     width: 178.93px;
     margin: 0px;
+  }
+}
+.card:nth-of-type(7) {
+  background-color: var(--yellow100);
+  padding: 32px;
+  h2 {
+    margin: 0px;
+    margin-bottom: 24px;
+    span {
+      color: var(--purple500);
+      font-style: italic;
+    }
+  }
+  img {
+    width: 190.47px;
   }
 }
