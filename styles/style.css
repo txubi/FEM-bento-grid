@@ -309,7 +309,7 @@ main,
     justify-content: center;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1070px) {
   main {
     padding: 64px 128px;
   }
