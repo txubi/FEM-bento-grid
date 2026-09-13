@@ -91,8 +91,10 @@ main,
     margin-top: 0;
   }
   img {
-    height: 32px;
-    width: 192px;
+    /* height: 32px;
+    width: 192px; */
+    max-width: 100%;
+    height: auto;
   }
   span {
     color: var(--yellow500);
@@ -102,7 +104,9 @@ main,
   background-color: var(--white);
   padding: 16px;
   img {
-    width: 316.08px;
+    /* width: 316.08px; */
+    max-width: 100%;
+    height: auto;
   }
 }
 .card:nth-of-type(3) {
@@ -113,7 +117,9 @@ main,
     margin-top: 0px;
   }
   img {
-    width: 208px;
+    /* width: 208px; */
+    max-width: 100%;
+    height: auto;
     margin-bottom: -40px;
   }
 }
@@ -124,7 +130,9 @@ main,
     margin-top: 0px;
   }
   img {
-    width: 308.06px;
+    /* width: 308.06px; */
+    max-width: 100%;
+    height: auto;
     margin: 16px 0px;
   }
   p {
@@ -144,7 +152,9 @@ main,
     text-align: center;
   }
   img {
-    width: 277.68px;
+    /* width: 277.68px; */
+    max-width: 100%;
+    height: auto;
     margin: 0px;
     padding-bottom: 40px;
   }
@@ -165,7 +175,9 @@ main,
     }
   }
   img {
-    width: 178.93px;
+    /* width: 178.93px; */
+    max-width: 100%;
+    height: auto;
     margin: 0px;
   }
 }
@@ -181,7 +193,9 @@ main,
     }
   }
   img {
-    width: 190.47px;
+    /* width: 190.47px; */
+    max-width: 100%;
+    height: auto;
   }
 }
 .card:nth-of-type(8) {
@@ -197,7 +211,9 @@ main,
     }
   }
   img {
-    width: 219.95px;
+    /* width: 219.95px; */
+    max-width: 100%;
+    height: auto;
   }
 }
 @media (min-width: 768px) {
