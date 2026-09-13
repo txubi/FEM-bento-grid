@@ -266,3 +266,9 @@ main,
     justify-content: center;
   }
 }
+@media (min-width: 1024px) {
+  .container {
+    grid-template-columns: repeat(4, 1ft);
+    /* grid-template-rows: 324fr; */
+  }
+}
