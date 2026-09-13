@@ -51,14 +51,15 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(8, 1fr);
-  align-items: center;
+  grid-auto-rows: auto;
+  align-items: stretch;
   justify-content: center;
   width: 343px;
   height: auto;
   margin: 32px auto;
   background-color: greenyellow;
-  card {
+  gap: 32px;
+  .card {
     width: 343px;
   }
 }
@@ -91,5 +92,6 @@ body {
   background-color: var(--white);
   padding: 16px;
   img {
+    width: 316.08px;
   }
 }
