@@ -1,3 +1,47 @@
+:root {
+  --purple100: #dbd1fc;
+  --purple500: #7551dc;
+  --yellow100: #f9eee2;
+  --yellow500: #ffcc6a;
+  --white: #ffffff;
+  --black: #121212;
+}
 * {
   box-sizing: border-box;
+}
+.text-preset-1 {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 93.5%;
+  font-size: 62px;
+  letter-spacing: -3px;
+}
+.text-preset-2 {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 90%;
+  font-size: 40px;
+  letter-spacing: -2px;
+}
+.text-preset-3 {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 87.5%;
+  font-size: 32px;
+  letter-spacing: -2px;
+}
+.text-preset-4 {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 111%;
+  font-size: 18px;
+  letter-spacing: 0px;
 }
