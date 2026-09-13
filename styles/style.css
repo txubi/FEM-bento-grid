@@ -107,3 +107,17 @@ main,
     margin-bottom: -40px;
   }
 }
+.card:nth-of-type(4) {
+  background-color: var(--purple100);
+  padding: 32px 16px;
+  h2 {
+    margin-top: 0px;
+  }
+  img {
+    width: 308.06px;
+    margin: 16px 0px;
+  }
+  p {
+    text-align: center;
+  }
+}
